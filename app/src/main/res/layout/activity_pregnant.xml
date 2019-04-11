@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pregnant"
+    android:background="@drawable/img9"
+    >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="282dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="Enter Patient Name:"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="cursive"
+
+
+         />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:layout_below="@+id/name"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="277dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Select your Pregnancy month"
+        android:layout_below="@+id/user_name"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="cursive"
+
+         />
+
+    <TextView
+        android:id="@+id/user_date"
+        android:layout_width="277dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="21dp"
+        android:text="month-year"
+        android:layout_below="@+id/date"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="cursive"
+
+         />
+
+    <Button
+        android:id="@+id/confirm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="406dp"
+        android:text="Confirm"
+        android:textSize="18dp" />
+</RelativeLayout>
+
